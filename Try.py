@@ -30,10 +30,9 @@ class TaskManagementApp:
         self.cmbDepartment = ttk.Combobox(root, values=self.department_values)
         self.txtProject = PlaceholderEntry(root, placeholder="ex: PS07")
         self.txtDescription = PlaceholderText(root, height=5,
-                                              placeholder="ex: Suport pentru uscare epoxy. Utilizat la temperatura "
-                                                          "ambientala cat si in cuptoare pana la 100°C")
+                                              placeholder="ex: Suport pentru uscare in cuptoare pana la 100°C")
         self.cmbJobPriority = ttk.Combobox(root, values=self.priority_values)
-        self.txtInputData = PlaceholderEntry(root, placeholder="ex: M:\\Public\\Research_Development\\07_PS07")
+        self.txtInputData = PlaceholderEntry(root, placeholder="ex: C:\\Research_Development\\01_Proiect")
         self.txtDeadline = DateEntry(root)
 
         # Arrange form controls
